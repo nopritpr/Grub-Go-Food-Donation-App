@@ -6,6 +6,16 @@ GrubGo is a mobile application designed to reduce food wastage by connecting foo
 
 This project was developed as part of the **Mobile Application Development (MAD) course** and implements key software development principles, emphasizing user experience, security, and scalability.
 
+![Image](https://github.com/user-attachments/assets/d4e89914-2f55-45b8-9911-d882a2c440ca)
+![Image](https://github.com/user-attachments/assets/a1ca8c79-56f1-4f72-82d9-ec8c0c879265)
+![Image](https://github.com/user-attachments/assets/55c52388-ca52-4f18-be57-f4005448037b)
+![Image](https://github.com/user-attachments/assets/82b54106-fb5b-4af3-8879-0ded628bd123)
+![Image](https://github.com/user-attachments/assets/60acbbd4-1659-487c-81c7-4a7fc5929b53)
+![Image](https://github.com/user-attachments/assets/45bf661c-6f8e-4405-ae86-596ed5de471f)
+![Image](https://github.com/user-attachments/assets/abb41c95-39a6-4a46-98e4-c3a19a61f999)
+![Image](https://github.com/user-attachments/assets/830bb1fa-93bd-46dc-81da-c1eb77d5c7a8)
+![Image](https://github.com/user-attachments/assets/438a404b-24ba-4045-b1d7-c8ba974fbfd5)
+![Image](https://github.com/user-attachments/assets/11edd658-0af4-4645-9fd8-a8b1cd1239ce)
 ---
 
 ## **Features and Functionality**  
