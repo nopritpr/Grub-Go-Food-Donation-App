@@ -101,6 +101,8 @@ GrubGo follows a modular system architecture, ensuring scalability and efficienc
 4. **System updates the database**, marks the donation as "Requested," and shares donor details.  
 5. **Notifications are triggered for real-time updates on new donations and requests.**  
 
+![Image](https://github.com/user-attachments/assets/96db1c21-153e-4f40-9ace-077580122138)
+![Image](https://github.com/user-attachments/assets/1983b36d-64b3-4298-9226-7c0bcef932b8)
 ---
 
 ## **Technology Stack**  
