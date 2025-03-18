@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Grub Go</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="donate">Donate</string>
+    <string name="receive">Receive</string>
+    <string name="map">Food Map</string>
+    <string name="history">History</string>
+    <string name="customer_care">Customer Care</string>
+    <string name="about_us">About Us</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Log Out</string>
+</resources>

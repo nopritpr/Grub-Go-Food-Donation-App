@@ -1,0 +1,125 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvFaqTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:text="FAQs"
+            android:textColor="#5D4037"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFaqList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFDE7" />
+
+        <Button
+            android:id="@+id/btnQueryForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#FFCC80"
+            android:text="Submit a Query"
+            android:textColor="#5D4037" />
+
+        <Button
+            android:id="@+id/btnPastQueries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#FFAB91"
+            android:text="View Past Queries"
+            android:textColor="#5D4037" />
+
+        <LinearLayout
+            android:id="@+id/llQueryForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:background="#FFE0B2">
+
+            <EditText
+                android:id="@+id/etQueryDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFCCBC"
+                android:textColorHint="@color/black"
+                android:hint="Enter your query"
+                android:padding="8dp"
+                android:textColor="#5D4037"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/etContactInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#FFE0B2"
+                android:hint="Your email/phone"
+                android:textColorHint="@color/black"
+                android:padding="8dp"
+                android:textColor="#5D4037"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/spContactMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/black"
+                android:background="#85000000"
+                android:layout_marginTop="8dp"
+                 />
+
+            <Button
+                android:id="@+id/btnSubmitQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textColorHint="@color/black"
+                android:backgroundTint="#FFCC80"
+                android:text="Submit"
+                android:textColor="#5D4037" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llPastQueries"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:background="#FFE0B2">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvPastQueries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDeleteAllQueries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#FF8A65"
+                android:text="Delete All Queries"
+                android:textColor="#5D4037" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

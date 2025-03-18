@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "904145533291",
+    "project_id": "grubgo-a0172",
+    "storage_bucket": "grubgo-a0172.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904145533291:android:66a8a30c9a8cf5012d742e",
+        "android_client_info": {
+          "package_name": "com.example.grubgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904145533291-9t0jnen8nlsnqu7a5hl1ekst5420k524.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.grubgo",
+            "certificate_hash": "4168c372f693f3ee9760ce251e773e58b543b4c6"
+          }
+        },
+        {
+          "client_id": "904145533291-b9g71ituv270r5tjtseoolpgipvmeh8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUACjnqcwTqqsw6CkfLRWrTpXIWzma5KU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904145533291-711ro5q69j549rp5mu885qd3gr986igs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

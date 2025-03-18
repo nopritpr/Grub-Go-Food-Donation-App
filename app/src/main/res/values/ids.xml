@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="customercare" type="id" />
+    <item name="etContactMode" type="id" />
+    <item name="etQueryDescription" type="id" />
+    <item name="llQueryForm" type="id" />
+    <item name="btnPastQueries" type="id" />
+    <item name="btnQueryForm" type="id" />
+    <item name="rvFaqList" type="id" />
+    <item name="spContactMode" type="id" />
+</resources>

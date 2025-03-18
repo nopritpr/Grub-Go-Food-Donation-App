@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+        <EditText
+            android:id="@+id/etReceiverName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:backgroundTint="#FFD54F"
+            android:hint="Receiver's Name"
+            android:padding="12dp"
+            android:textColor="#6D4C41"
+            android:textColorHint="#3C000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/etReceiverContact"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Contact Number"
+            android:textColorHint="#3C000000"
+            android:backgroundTint="#FFD54F"
+            android:padding="12dp"
+            android:textColor="#6D4C41"
+            android:textSize="16sp"
+            android:inputType="phone"
+            android:maxLength="10"
+            app:layout_constraintTop_toBottomOf="@id/etReceiverName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Food Item Selection -->
+        <TextView
+            android:id="@+id/tvAvailableDonations"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Select Food Donation"
+            android:textColor="#6D4C41"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/etReceiverContact"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spAvailableDonations"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#85000000"
+            android:popupElevation="@dimen/cardview_compat_inset_shadow"
+            android:padding="12dp"
+            app:layout_constraintTop_toBottomOf="@id/tvAvailableDonations"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Food Images -->
+        <LinearLayout
+            android:id="@+id/llFoodImages"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/spAvailableDonations"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgFood1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFE082"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/imgFood2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFE082"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="8dp" />
+
+            <ImageView
+                android:id="@+id/imgFood3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="#FFE082"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <!-- Expiry -->
+        <TextView
+            android:id="@+id/tvExpiry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Expiry: N/A"
+            android:textColor="#6D4C41"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/llFoodImages"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <!-- When Made -->
+        <TextView
+            android:id="@+id/tvWhenMade"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="When Made: N/A"
+            android:textColor="#6D4C41"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvExpiry"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Quantity -->
+        <TextView
+            android:id="@+id/tvQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Quantity: N/A"
+            android:textColor="#6D4C41"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvWhenMade"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Address: N/A"
+            android:textColor="#6D4C41"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tvQuantity"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Submit Button -->
+
+        <!-- Donor Info -->
+
+        <Button
+            android:id="@+id/btnSubmitRequest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF7043"
+            android:text="Submit Request"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvAddress" />
+
+        <TextView
+            android:id="@+id/tvDonorInfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="8dp"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/btnSubmitRequest"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
