@@ -1,4 +1,4 @@
-# **GrubGo - Food Donation App (in collaboration with @SAURABH_SINGH01**
+# **GrubGo - Food Donation App**
 
 ## **Project Overview**  
 
